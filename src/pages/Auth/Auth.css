@@ -1,0 +1,97 @@
+.wrapper{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+}
+.cardA{
+  padding: 20px;
+  height: 255px;
+  width: 420px;
+  border-radius: 25px;
+  background: #2b2d33;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.titleA{
+  font-weight: 700;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.labelA{
+  font-weight: 600;
+  margin-left: 15px;
+  display: block;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.input{
+  width: 95%;
+  height: 45px;
+  border-radius: 10px;
+  border-color: #585858;
+  border-width: thin ;
+  padding: 0 12px;
+  font-size: 16px;
+  margin-bottom: 26px;
+  outline: none;
+}
+.input:focus{
+  border-color: #fff;
+  border-width: thin ;
+}
+.buttonA{
+  width: 95%;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(90deg, #ff4f7b, #ffc107);
+  transition: 0.2s;
+  margin-bottom: 20px;
+}
+.buttonA:hover{
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+.buttonok{
+  margin-right: 20px;
+  width: 47%;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(90deg, #ff4f7b, #ffc107);
+  transition: 0.2s;
+  margin-bottom: 20px;
+}
+.buttonok:hover{
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+.back{
+  margin-bottom: 20px;
+  width: 47%;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: #444;
+}
+.back:hover{
+  opacity: 0.9;
+}

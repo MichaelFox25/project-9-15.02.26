@@ -1,0 +1,164 @@
+label{
+  color: #000;
+}
+.case-constructor{
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  background-color: #f9cfb8;
+  width: 100%;
+}
+.main-layout{
+  display: flex;
+  flex: 1; 
+  gap: 20px; 
+  padding: 20px;
+  overflow: hidden; 
+}
+.canvas-container{
+  margin-left: 145px;
+  width: 45%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  overflow: hidden; 
+}
+.settings-panel{
+  position: absolute;
+  right: 20px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+  width: 400px;
+  height: auto;
+}
+.settings-title{
+  margin  : 0;
+  color: black;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+.tool-panel{
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.tool-description{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #4b5563;
+}
+.action-button{
+  border-radius: 0.75rem;
+  background: linear-gradient(to right, #ec4899, #fbbf24);
+  cursor: pointer;
+  border: none;
+  width: 175px;
+  margin-left: 188px;
+}
+.savebut{
+  position: absolute;
+  right: 15px;
+  bottom: 75px;
+  border-radius: 0.75rem;
+  background: linear-gradient(to right, #ec4899, #fbbf24);
+  cursor: pointer;
+  border: none;
+  width: 175px;
+}
+.backbut{
+  position: absolute;
+  right: 200px;
+  bottom: 75px;
+  border-radius: 0.75rem;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+  width: 145px;
+}
+.action-button:hover{
+  opacity: 0.9;
+}
+.savebut:hover{
+  opacity: 0.9;
+}
+.backbut:hover{
+  opacity: 0.9;
+}
+.properties-section{
+  display: flex;
+  color: #000;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.75rem;
+}
+.property-row{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.property-input1{
+  color: #000;
+  border: 1px solid #919193;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  width: 5rem;
+}
+.property-input2{
+  color: #000;
+  border: 1px solid #919193;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  width: 200px;
+}
+.property-select1{
+  color: #000;
+  border: 1px solid #919193;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+.text-controls{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.75rem;
+}
+.color-picker{
+  width: 100%;
+}
+.color-value{
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.hidden{
+  display: none;
+}
+.toolbar{
+  height: 4rem;
+  background: linear-gradient(to right, #ec4899, #fbbf24);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tool-button{
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+.tool-button.active{
+  background-color: rgba(255, 255, 255, 0.3);
+}

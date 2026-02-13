@@ -1,0 +1,133 @@
+.profile-wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/ProfileBack.png");
+    background-size: cover;
+    background-position: center;
+}
+.right-left{
+    display: flex;
+}
+.profile-container{
+    width: 50%;
+    height: 50%;
+    padding-top: 15px !important;
+    background: #2A2B2F;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    color: white;
+}
+.profile-left{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.profile-right{
+    width: 45%;
+    padding-left: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.profile-title{
+    font-weight: 700;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.profile-field{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.profile-field label{
+    color: #ffffff;
+    font-size: 20px !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+.profile-field input{
+    height: 55px;
+    padding: 0 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+.orders-section h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.orders-header{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #444;
+}
+.order-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #333;
+    font-size: 14px;
+}
+.profile-right h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.favorites-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.favorite-card{
+    background: #ffffff;
+    color: #000;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+.favorite-card img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.favorite-card span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.but1{
+    float: right;
+    width: 175px;
+    margin-top: 15px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #ff4f7b, #ffc107);
+    transition: 0.2s;
+}
+.but1:hover{
+    opacity: 0.9;
+    transform: scale(1.02);
+}
